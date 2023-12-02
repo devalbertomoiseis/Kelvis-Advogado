@@ -401,23 +401,41 @@ main section div img {
 }
 .contato ul {
   display: flex;
-  justify-content: center;
+  justify-content:center;
   flex-wrap: wrap;
   text-align: center;
-  width: 800px;
 }
 .contato ul li {
   color: #f5ecec;
   font-size: 18px;
-  padding: 0 2rem 2rem 2rem;
-  margin: 1rem 2%;
-  list-style:square;
+  padding: 0;
+  margin: 1rem 20px;
+  list-style: square;
 }
 .contato ul li:hover {
   color: #ebad7d;
   transition: 0.6s;
 }
 
+.contato a {
+  color: #424041;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding: 10px 30px;
+  background: #ebad7d;
+  border-radius: 4px;
+  margin: 2rem auto;
+  text-align: center;
+}
+.contato  a:hover {
+  color: #ebad7d;
+  background: #424041;
+  transition: 0.6s;
+  border: 1px solid #ebad7d;
+}
+.iframe {
+  margin: 0 auto;
+}
 .contato iframe {
   width: 960px;
   max-width: 90%;
