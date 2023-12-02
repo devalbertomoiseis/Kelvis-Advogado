@@ -404,6 +404,7 @@ main section div img {
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
+  width: 800px;
 }
 .contato ul li {
   color: #f5ecec;
