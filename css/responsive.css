@@ -123,12 +123,12 @@
   .sobre-perfil ul li {
     list-style: none;
     background-color: #ebad7d;
-    padding: 2rem 0;
+    padding: 1rem 0;
     color: var(--cor-padrão);
   }
 
   .sobre-perfil ul li {
-    margin: 4rem 0 2rem 0;
+    margin: 0 0 1rem 0;
   }
   .sobre-div {
     margin: 2rem 0;
