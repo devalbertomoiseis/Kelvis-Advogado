@@ -43,7 +43,7 @@ a {
 }
 
 .titulo {
-  font-size: 5.6rem;
+  font-size: 4rem;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.2rem;
@@ -55,7 +55,6 @@ a {
   content: " ";
   height: 4px;
   width: 60px;
-  background-color: var(--cor-extra-1);
   display: block;
   margin: 12px auto;
 }

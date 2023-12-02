@@ -131,9 +131,18 @@ main section div img {
 }
 
 .sobre .titulo {
+  font: 30px;
   text-align: center;
   color: var(--cor-padrão);
   margin: 4rem 0;
+}
+.sobre .titulo::after {
+  content: "";
+  height: 4px;
+  width: 30px;
+  margin: 12px auto;
+  background: #ebad7d;
+  display: block;
 }
 
 .sobre-perfil h3 {
@@ -359,4 +368,58 @@ main section div img {
   height: auto;
   border: 4px solid #424041;
   margin-top: 10px;
+}
+
+.sobre-background {
+  background-color: #424041;
+  padding: 2rem 0;
+}
+
+.contato {
+  margin: 60px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.sobre-background h1 {
+  font: 30px;
+  text-align: center;
+  color: #f5ecec;
+  margin: 2rem 0;
+}
+
+.sobre-background h1::after {
+  content: "";
+  height: 4px;
+  width: 30px;
+  margin: 12px auto;
+  background: #ebad7d;
+  display: block;
+}
+.contato ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.contato ul li {
+  color: #f5ecec;
+  font-size: 18px;
+  padding: 0 2rem 2rem 2rem;
+  margin: 1rem 2%;
+  list-style:square;
+}
+.contato ul li:hover {
+  color: #ebad7d;
+  transition: 0.6s;
+}
+
+.contato iframe {
+  width: 960px;
+  max-width: 90%;
+  border: 2px solid #ebad7d;
+  margin: 1rem auto;
 }

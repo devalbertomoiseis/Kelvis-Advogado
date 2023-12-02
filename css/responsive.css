@@ -160,6 +160,13 @@
     margin: 2rem auto o;
     padding: 40px;
   }
+
+  .contato iframe {
+    width: 820px;
+    max-width: 90%;
+    border: 2px solid #ebad7d;
+    margin: 0 auto;
+  }
   
 }
 
