@@ -48,7 +48,7 @@ a {
   font-weight: bold;
   letter-spacing: 0.2rem;
   margin: 2rem 0;
-  color: var(--colors-background-1);
+  color: #424041be;
 }
 
 .titulo::after {
@@ -57,13 +57,18 @@ a {
   width: 60px;
   display: block;
   margin: 12px auto;
+  background-color: #424041be;
 }
 
 .btn-principal {
-  background-color: var(--colors-background-1);
+  background-color: #424041be;
   padding: 1.5rem 3rem;
-  color: var(--cor-padrão);
+  color: #fff;
   margin-top: 1rem;
   border-radius: 0.4rem;
   text-transform: uppercase;
+}
+.btn-principal:hover {
+  background-color: #c2885c;
+  transition: 0.6s;
 }

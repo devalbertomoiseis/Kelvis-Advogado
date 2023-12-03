@@ -171,7 +171,9 @@
 }
 
 @media (max-width: 780px) {
-
+  .contato-texto{
+    margin-top: -20px;
+  }
 }
 
 @media (max-width: 600px) {
