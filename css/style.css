@@ -103,7 +103,6 @@ main section div p {
 
 main section div p span {
   font-weight: bold;
-  text-decoration: underline;
 }
 
 main section div img {
@@ -270,7 +269,68 @@ main section div img {
   max-width: 800px;
   color: #ebad7d;
 }
+/* serviços */
+.servicos {
+  padding: 40px 2% 60px 2%;
+  text-align: center;
+}
 
+.servicos > p {
+  font-size: 16px;
+  margin-bottom: -5px;
+  color: #424041;
+}
+.servicos h1.titulo::after {
+  margin: 12px auto;
+}
+
+.servicos-todo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 4rem 0;
+}
+
+.servicos-div {
+  width: 28%;
+  margin: 1rem;
+  padding: 2rem;
+  border: 2px solid #424041;
+  border-radius: 6px;
+  background-color: #f5ecec;
+}
+.servicos-div img {
+  height: 80px;
+  width: 80px;
+  margin: 20px auto;
+}
+.servicos-div h3 {
+  margin: 20px 0;
+  color: #424041;
+}
+.servicos-div h3:after {
+  content: "";
+  display: block;
+  margin: 12px auto;
+  height: 4px;
+  width: 30px;
+  background: #424041;
+}
+.servicos-div-a a {
+  background-color: #f5ecec;
+  color: #424041;
+  padding: 1rem 3rem;
+  border: 2px solid #424041;
+  border-radius: 6px;
+  margin: 2rem 0;
+}
+.servicos-div-a a:hover {
+  background-color: #424041;
+  color: #c2885c;
+  border: 2px solid #c2885c;
+  transition: 0.6s;
+}
 /*direitos*/
 .direitos {
   padding: 60px 0;

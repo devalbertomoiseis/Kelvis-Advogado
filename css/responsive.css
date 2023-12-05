@@ -145,7 +145,19 @@
 
   }
 
-
+  .servicos-todo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .servicos-div {
+    width: 46%;
+    margin: 1rem;
+    padding: 2rem;
+    border: 2px solid #424041;
+    border-radius: 6px;
+  }
   .direitos h1 {
     font-size: 20px;
     line-height: 26px;
@@ -173,6 +185,17 @@
 @media (max-width: 780px) {
   .contato-texto{
     margin-top: -20px;
+  }
+  .servicos-todo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .servicos-div {
+    width: 85%;
+
+    margin: 0 auto;
   }
 }
 
