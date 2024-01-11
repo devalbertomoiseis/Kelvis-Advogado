@@ -151,7 +151,7 @@ main section div img {
 
 .sobre-perfil h3 {
   color: var(--cor-padrão);
-  margin: 2rem 0;
+  margin: 2rem 0 0 0;
 }
 
 .sobre-perfil h3::after {
@@ -169,6 +169,7 @@ main section div img {
   letter-spacing: 1px;
   margin-bottom: 20px;
   color: var(--cor-padrão);
+  padding: 0px 2% 20px 2%;
 }
 
 .sobre-perfil span {

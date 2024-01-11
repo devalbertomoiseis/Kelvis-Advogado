@@ -191,12 +191,15 @@
     flex-direction: column;
     flex-wrap: wrap;
   }
-  
+  .servicos h1.titulo {
+    font-size: 28px;
+  }
   .servicos-div {
     width: 85%;
 
     margin: 0 auto;
   }
+  
 }
 
 @media (max-width: 600px) {
@@ -291,6 +294,9 @@
     margin: 2rem auto;
     padding: 40px;
   }
+  .contato a{
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 520px) {
@@ -299,7 +305,7 @@
   }
 
   main section .titulo {
-    font-size: 2srem;
+    font-size: 2rem;
     text-align: center !important;
   }
 }
