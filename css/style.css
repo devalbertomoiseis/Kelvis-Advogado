@@ -1,10 +1,14 @@
 @import url("./variables.css");
-
+@import url("./patterns.css");
 html {
   scroll-behavior: smooth;
 }
 
-body,
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 ul {
   margin: 0px;
   padding: 0px;
@@ -142,7 +146,7 @@ main section div img {
 /*valores*/
 .sobre-background {
   background-color: #424041;
-  padding: 2rem 0;
+  padding: 2rem 2%;
 }
 
 .sobre .titulo {
@@ -176,11 +180,10 @@ main section div img {
 
 .sobre-perfil p {
   font-size: 16px;
-  line-height: 22px;
+  line-height: 24px;
   letter-spacing: 1px;
   margin-bottom: 20px;
   color: var(--cor-padrão);
-  padding: 0px 2% 20px 2%;
 }
 
 .sobre-perfil span {
